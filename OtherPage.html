@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+
+<html lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#f49d25",
+                        "background-light": "#f8f7f5",
+                        "background-dark": "#221a10",
+                    },
+                    fontFamily: {
+                        "display": ["Plus Jakarta Sans"]
+                    },
+                    borderRadius: {"DEFAULT": "0.5rem", "lg": "1rem", "xl": "1.5rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<title>Métodos de Pago Seguros - Jugos de Naranja Bogotá</title>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 transition-colors duration-300">
+<div class="relative flex h-auto min-h-screen w-full flex-col overflow-x-hidden">
+<!-- Top Nav Bar Component -->
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-primary/20 bg-background-light dark:bg-background-dark px-10 py-4 sticky top-0 z-50">
+<div class="flex items-center gap-4 text-slate-900 dark:text-slate-100">
+<div class="size-8 text-primary">
+<span class="material-symbols-outlined text-4xl">electric_bike</span>
+</div>
+<h2 class="text-lg font-bold leading-tight tracking-tight">Jugos de Naranja Bogotá</h2>
+</div>
+<div class="flex flex-1 justify-end gap-8 items-center">
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Inicio</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Nuestra Cosecha</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Suscripciones</a>
+</nav>
+<div class="flex gap-3">
+<button class="flex items-center justify-center rounded-xl h-10 w-10 bg-primary/10 text-slate-900 dark:text-slate-100 hover:bg-primary/20 transition-all">
+<span class="material-symbols-outlined">shopping_cart</span>
+</button>
+<button class="flex items-center justify-center rounded-xl h-10 w-10 bg-primary/10 text-slate-900 dark:text-slate-100 hover:bg-primary/20 transition-all">
+<span class="material-symbols-outlined">person</span>
+</button>
+</div>
+</div>
+</header>
+<main class="flex-1 flex flex-col items-center py-8 px-4 md:px-10 lg:px-20 max-w-7xl mx-auto w-full">
+<!-- Breadcrumbs -->
+<div class="w-full flex items-center gap-2 mb-6 text-sm">
+<a class="text-primary font-medium hover:underline" href="#">Carrito</a>
+<span class="material-symbols-outlined text-xs">chevron_right</span>
+<span class="text-slate-500 dark:text-slate-400">Información</span>
+<span class="material-symbols-outlined text-xs">chevron_right</span>
+<span class="text-slate-900 dark:text-slate-100 font-bold">Métodos de Pago</span>
+</div>
+<div class="w-full grid grid-cols-1 lg:grid-cols-3 gap-8">
+<!-- Left Column: Payment Options -->
+<div class="lg:col-span-2 space-y-6">
+<div class="bg-white dark:bg-background-dark/50 p-6 rounded-xl border border-primary/10 shadow-sm">
+<div class="flex items-center gap-3 mb-6">
+<span class="material-symbols-outlined text-primary bg-primary/10 p-2 rounded-lg">lock</span>
+<h1 class="text-2xl font-extrabold tracking-tight">Selecciona tu método de pago</h1>
+</div>
+<!-- Payment Methods List -->
+<div class="space-y-4">
+<!-- PSE Option -->
+<label class="relative flex items-center p-4 border-2 border-primary rounded-xl cursor-pointer bg-primary/5">
+<input checked="" class="w-5 h-5 text-primary border-slate-300 focus:ring-primary" name="payment" type="radio"/>
+<div class="ml-4 flex-1 flex items-center justify-between">
+<div>
+<p class="font-bold">PSE (Débito Bancario)</p>
+<p class="text-sm text-slate-500 dark:text-slate-400">Paga desde cualquier banco de Colombia</p>
+</div>
+<div class="h-8 w-16 bg-slate-100 rounded flex items-center justify-center overflow-hidden">
+<img alt="Logo PSE" class="h-6 object-contain" data-alt="Official PSE payment system logo for Colombia" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBW2A4mhHC6T6THbgmhIGvgOvAqwPRwis6w44fI13kDBi_SP08KoV7pPCDKmhssPTqe8BS8-jzDI-l5UzcWgm_jEP-H8VMkRYuyzz4SH7lpZXuU07qLZysrPz6aOsswAURIAKIclwsHhaczlGLxZBXa7on2YWO3ugpaQHGDKFjfaj8et1-T_Z-aa2mNzjtb17myVcWOtiujGuqKaCxCq3oTCluaNkCKD5nafyc6UTnb_AMNOeEbmeLZfQzxylHnr5jcZKnMkBTcQ4w"/>
+</div>
+</div>
+</label>
+<!-- Nequi Option -->
+<label class="relative flex items-center p-4 border-2 border-slate-200 dark:border-slate-800 rounded-xl cursor-pointer hover:border-primary/50 transition-all">
+<input class="w-5 h-5 text-primary border-slate-300 focus:ring-primary" name="payment" type="radio"/>
+<div class="ml-4 flex-1 flex items-center justify-between">
+<div>
+<p class="font-bold">Nequi</p>
+<p class="text-sm text-slate-500 dark:text-slate-400">Paga con tu número de celular</p>
+</div>
+<div class="h-8 w-16 bg-slate-100 rounded flex items-center justify-center overflow-hidden">
+<img alt="Logo Nequi" class="h-5 object-contain" data-alt="Nequi digital wallet logo" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBBbt51oTv2wdTtaa09TPYccjgt7nyxw-m-sCmgv7Xe2Ywg53GDpTDQdQyraynu6nsE9X43MUCz0gSjxB79IQVS0OnLa93ZzKRaaX6ZlewN81Svqc0MyDVPqbvy0mM_hh1IQr8zjziOJZjkyngzhva_aLmy8sbauQ1ejhGzl1-eKdtXr9jBg9i905eBw2twLMrwLgGI3-UD2q3WIamAz5Eeh_9hS0nUnq90lnhnj_EYX-bWKhh3ypRchTKjRzt3EnL-o7hZCv8LJZU"/>
+</div>
+</div>
+</label>
+<!-- Daviplata Option -->
+<label class="relative flex items-center p-4 border-2 border-slate-200 dark:border-slate-800 rounded-xl cursor-pointer hover:border-primary/50 transition-all">
+<input class="w-5 h-5 text-primary border-slate-300 focus:ring-primary" name="payment" type="radio"/>
+<div class="ml-4 flex-1 flex items-center justify-between">
+<div>
+<p class="font-bold">Daviplata</p>
+<p class="text-sm text-slate-500 dark:text-slate-400">Fácil y rápido desde tu App</p>
+</div>
+<div class="h-8 w-16 bg-slate-100 rounded flex items-center justify-center overflow-hidden">
+<img alt="Logo Daviplata" class="h-5 object-contain" data-alt="Daviplata financial app logo" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDd2NTqzXOisNjEQfnkOXapfUhJTA1mCd7KE3W2aMOxPsUfxPoTDP10Ub6g71b_eDIOXmblpOPjmQuZNvQReeIeV4l9dGQ4jA9ETC0h5ktlFe4M9AEIgaUkf4RRWrHWRlkr6-FcaQUBtpWiPlT8jWl0-_ANazI07gDaJxLraFrbp92FvTcFS67tLMb4W3KWjkoUgm6P7xXDkuNXYMXI9ANJoeWg8ageaTUkqe4vwqobP2vo8tqoc4nvtxMXD3OzYyZoR96nQ95qk2A"/>
+</div>
+</div>
+</label>
+<!-- Card Option -->
+<label class="relative flex items-center p-4 border-2 border-slate-200 dark:border-slate-800 rounded-xl cursor-pointer hover:border-primary/50 transition-all">
+<input class="w-5 h-5 text-primary border-slate-300 focus:ring-primary" name="payment" type="radio"/>
+<div class="ml-4 flex-1 flex items-center justify-between">
+<div>
+<p class="font-bold">Tarjeta de Crédito</p>
+<p class="text-sm text-slate-500 dark:text-slate-400">Visa, Mastercard, Amex</p>
+</div>
+<div class="flex gap-1">
+<span class="material-symbols-outlined text-slate-400">credit_card</span>
+</div>
+</div>
+</label>
+<!-- Cash on Delivery -->
+<label class="relative flex items-center p-4 border-2 border-slate-200 dark:border-slate-800 rounded-xl cursor-pointer hover:border-primary/50 transition-all">
+<input class="w-5 h-5 text-primary border-slate-300 focus:ring-primary" name="payment" type="radio"/>
+<div class="ml-4 flex-1 flex items-center justify-between">
+<div>
+<p class="font-bold">Pago contra entrega</p>
+<p class="text-sm text-slate-500 dark:text-slate-400">Paga en efectivo al recibir en Bogotá</p>
+</div>
+<span class="material-symbols-outlined text-slate-400">payments</span>
+</div>
+</label>
+</div>
+<!-- Security Badge -->
+<div class="mt-8 flex items-center justify-center gap-4 py-4 border-t border-slate-100 dark:border-slate-800">
+<div class="flex items-center gap-1 text-xs text-slate-500 uppercase tracking-widest font-bold">
+<span class="material-symbols-outlined text-sm">verified_user</span>
+                            Pago 100% Seguro
+                        </div>
+<div class="h-4 w-px bg-slate-300"></div>
+<div class="text-xs text-slate-500 font-medium">SSL Encrypted Connection</div>
+</div>
+</div>
+<div class="flex flex-col md:flex-row gap-4">
+<button class="flex-1 py-4 bg-primary text-slate-900 font-bold rounded-xl hover:bg-primary/90 transition-all shadow-lg shadow-primary/20">
+                        Finalizar Compra
+                    </button>
+<button class="px-8 py-4 bg-slate-200 dark:bg-slate-800 text-slate-900 dark:text-slate-100 font-bold rounded-xl hover:bg-slate-300 dark:hover:bg-slate-700 transition-all">
+                        Regresar
+                    </button>
+</div>
+</div>
+<!-- Right Column: Order Summary -->
+<div class="lg:col-span-1">
+<div class="bg-white dark:bg-background-dark/50 p-6 rounded-xl border border-primary/10 shadow-sm sticky top-24">
+<h3 class="text-lg font-bold mb-4 border-b border-slate-100 dark:border-slate-800 pb-2">Resumen del Pedido</h3>
+<div class="space-y-4 mb-6">
+<div class="flex gap-4">
+<div class="h-16 w-16 bg-primary/10 rounded-lg flex items-center justify-center overflow-hidden">
+<span class="material-symbols-outlined text-primary text-3xl">local_drink</span>
+</div>
+<div class="flex-1">
+<p class="text-sm font-bold">Jugo de Naranja 1L (Pack x6)</p>
+<p class="text-xs text-slate-500">Cantidad: 1</p>
+<p class="text-sm font-bold mt-1 text-primary">$45.000</p>
+</div>
+</div>
+<div class="flex gap-4">
+<div class="h-16 w-16 bg-primary/10 rounded-lg flex items-center justify-center overflow-hidden">
+<span class="material-symbols-outlined text-primary text-3xl">nutrition</span>
+</div>
+<div class="flex-1">
+<p class="text-sm font-bold">Jugo de Mandarina 500ml</p>
+<p class="text-xs text-slate-500">Cantidad: 2</p>
+<p class="text-sm font-bold mt-1 text-primary">$12.000</p>
+</div>
+</div>
+</div>
+<div class="space-y-2 border-t border-slate-100 dark:border-slate-800 pt-4">
+<div class="flex justify-between text-sm">
+<span class="text-slate-500">Subtotal</span>
+<span class="font-medium">$57.000</span>
+</div>
+<div class="flex justify-between text-sm">
+<span class="text-slate-500">Envío (Bogotá)</span>
+<span class="text-emerald-500 font-bold">GRATIS</span>
+</div>
+<div class="flex justify-between text-xl font-extrabold mt-4 pt-4 border-t border-slate-100 dark:border-slate-800">
+<span>Total</span>
+<span class="text-primary">$57.000</span>
+</div>
+</div>
+<div class="mt-6 p-4 bg-emerald-50 dark:bg-emerald-900/20 rounded-lg border border-emerald-100 dark:border-emerald-800 flex gap-3">
+<span class="material-symbols-outlined text-emerald-600">delivery_dining</span>
+<div>
+<p class="text-xs font-bold text-emerald-800 dark:text-emerald-400">Entrega Estimada</p>
+<p class="text-xs text-emerald-700 dark:text-emerald-500">Hoy mismo en Bogotá si pides antes de las 2:00 PM</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- Footer Area -->
+<footer class="mt-auto border-t border-primary/10 py-8 px-10 text-center text-slate-500 text-xs">
+<div class="flex justify-center gap-6 mb-4">
+<span class="material-symbols-outlined text-xl">shield</span>
+<span class="material-symbols-outlined text-xl">payments</span>
+<span class="material-symbols-outlined text-xl">lock</span>
+</div>
+<p>© 2024 Jugos de Naranja Bogotá - Productos 100% naturales del campo a tu mesa.</p>
+<p class="mt-2">Calle 100, Bogotá, Colombia. Soporte: +57 300 123 4567</p>
+</footer>
+</div>
+</body></html>

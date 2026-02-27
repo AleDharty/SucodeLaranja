@@ -1,0 +1,274 @@
+<html lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#f49d25",
+                        "background-light": "#f8f7f5",
+                        "background-dark": "#221a10",
+                    },
+                    fontFamily: {
+                        "display": ["Plus Jakarta Sans", "sans-serif"]
+                    },
+                    borderRadius: { "DEFAULT": "0.5rem", "lg": "1rem", "xl": "1.5rem", "full": "9999px" },
+                },
+            },
+        }
+    </script>
+<title>Carrito de Compras y Envío - Naranjas Bogotá</title>
+</head>
+<body class="font-display bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100">
+<div class="relative flex min-h-screen flex-col overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<!-- Header -->
+<header class="flex items-center justify-between border-b border-primary/10 bg-white/80 dark:bg-background-dark/80 backdrop-blur-md px-10 py-4 sticky top-0 z-50">
+<div class="flex items-center gap-4 text-primary">
+<div class="size-8 flex items-center justify-center bg-primary rounded-lg text-white">
+<span class="material-symbols-outlined">local_drink</span>
+</div>
+<h2 class="text-slate-900 dark:text-slate-100 text-xl font-extrabold leading-tight tracking-tight">Naranjas Bogotá</h2>
+</div>
+<div class="flex flex-1 justify-end gap-8">
+<nav class="flex items-center gap-9">
+<a class="text-slate-700 dark:text-slate-300 text-sm font-semibold hover:text-primary transition-colors" href="#">Inicio</a>
+<a class="text-slate-700 dark:text-slate-300 text-sm font-semibold hover:text-primary transition-colors" href="#">Jugos</a>
+<a class="text-slate-700 dark:text-slate-300 text-sm font-semibold hover:text-primary transition-colors" href="#">Suscripciones</a>
+<a class="text-slate-700 dark:text-slate-300 text-sm font-semibold hover:text-primary transition-colors" href="#">Contacto</a>
+</nav>
+<div class="flex gap-2">
+<button class="flex items-center justify-center rounded-xl h-10 w-10 bg-primary/10 text-primary hover:bg-primary/20 transition-all">
+<span class="material-symbols-outlined">shopping_cart</span>
+</button>
+<button class="flex items-center justify-center rounded-xl h-10 w-10 bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-200 transition-all">
+<span class="material-symbols-outlined">person</span>
+</button>
+</div>
+</div>
+</header>
+<main class="mx-auto flex w-full max-w-[1200px] flex-col gap-8 px-6 py-10 lg:px-10">
+<!-- Breadcrumbs -->
+<div class="flex items-center gap-2 text-sm">
+<a class="text-primary font-medium hover:underline" href="#">Tienda</a>
+<span class="text-slate-400 font-medium"><span class="material-symbols-outlined text-xs">chevron_right</span></span>
+<span class="text-slate-600 dark:text-slate-400 font-medium">Carrito de compras</span>
+</div>
+<div class="flex flex-col gap-3">
+<h1 class="text-slate-900 dark:text-slate-100 text-4xl font-black leading-tight tracking-tight">Tu Carrito de Jugos</h1>
+<p class="text-slate-500 dark:text-slate-400 text-lg">Revisa tu pedido de frescura natural antes de finalizar la compra.</p>
+</div>
+<div class="grid grid-cols-1 gap-10 lg:grid-cols-3">
+<!-- Products Table Section -->
+<div class="lg:col-span-2 flex flex-col gap-6">
+<div class="overflow-hidden rounded-xl border border-primary/10 bg-white dark:bg-slate-900 shadow-sm">
+<table class="w-full text-left">
+<thead class="bg-primary/5 border-b border-primary/10">
+<tr>
+<th class="px-6 py-4 text-xs font-bold uppercase tracking-wider text-slate-600 dark:text-slate-400">Producto</th>
+<th class="px-6 py-4 text-xs font-bold uppercase tracking-wider text-slate-600 dark:text-slate-400 text-center">Precio</th>
+<th class="px-6 py-4 text-xs font-bold uppercase tracking-wider text-slate-600 dark:text-slate-400 text-center">Cantidad</th>
+<th class="px-6 py-4 text-xs font-bold uppercase tracking-wider text-slate-600 dark:text-slate-400 text-right">Subtotal</th>
+<th class="px-6 py-4 text-xs font-bold uppercase tracking-wider text-slate-600 dark:text-slate-400"></th>
+</tr>
+</thead>
+<tbody class="divide-y divide-primary/10">
+<tr class="hover:bg-primary/5 transition-colors">
+<td class="px-6 py-5">
+<div class="flex items-center gap-4">
+<div class="size-16 rounded-lg bg-cover bg-center border border-primary/10" data-alt="Fresh orange juice in a glass bottle" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBBqq9pM8wJ_Wkf1LbypDG6SWnhIP8xi_jn7eEx1_vDt57AeovcYUG69oDr_34TLaFlxxkB9frqTGnvQPEsIaX1RQxOw-1fJd2tbCd1EW7h6EOoMA0UfhcRqZwsctdKjzIqT-pyzyiIeogiFuzZEcYZ2HHpfFc1jeRiAmPgDcBX6HTGZnASxaSKlzYDZTpglJ_fU5kPHGgTKn6AL1MXo7a3GbYhRG8lC11DeymyqAiMKOz1akld0Qu6tgRbllprC9HPr5BNWkeighM");'></div>
+<div>
+<p class="font-bold text-slate-900 dark:text-white">Jugo de Naranja 1L</p>
+<p class="text-xs text-slate-500">100% Natural, sin azúcar</p>
+</div>
+</div>
+</td>
+<td class="px-6 py-5 text-center font-medium text-slate-700 dark:text-slate-300">12.500 COP</td>
+<td class="px-6 py-5">
+<div class="mx-auto flex w-max items-center rounded-lg border border-primary/20 bg-background-light dark:bg-slate-800 p-1">
+<button class="flex size-8 items-center justify-center rounded hover:bg-white dark:hover:bg-slate-700 text-primary">
+<span class="material-symbols-outlined text-sm">remove</span>
+</button>
+<span class="w-10 text-center font-bold">2</span>
+<button class="flex size-8 items-center justify-center rounded hover:bg-white dark:hover:bg-slate-700 text-primary">
+<span class="material-symbols-outlined text-sm">add</span>
+</button>
+</div>
+</td>
+<td class="px-6 py-5 text-right font-bold text-slate-900 dark:text-white">25.000 COP</td>
+<td class="px-6 py-5 text-right">
+<button class="text-slate-400 hover:text-red-500 transition-colors">
+<span class="material-symbols-outlined">delete</span>
+</button>
+</td>
+</tr>
+<tr class="hover:bg-primary/5 transition-colors">
+<td class="px-6 py-5">
+<div class="flex items-center gap-4">
+<div class="size-16 rounded-lg bg-cover bg-center border border-primary/10" data-alt="Fresh oranges in a basket" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCe30YJaApEvHC7gjSMYu1rRD57TGm8hfYRy99s_rmkEl45ncJxfkx24Fok8mS-F0Vdvi4oOl5oiJOlQAO6YN6KjxnoN9vCh4m8We2mLmei7DaYgrcH4Cma9mf_d5ybN0q0V92dnuiYdRKnG5brwoTm7FmZAQDo0-JvC0860_x4V9Tf4ZK037e5ZspP17TmAWMw17bN3vmoibrY_WVbAUeC27H9R5Vu6GJmBTmh9djstMzLaxFqiu-1ZPn4fxG0srT75L2blHMwH20");'></div>
+<div>
+<p class="font-bold text-slate-900 dark:text-white">Pack Naranjas Premium</p>
+<p class="text-xs text-slate-500">Malla de 5kg - Cosecha local</p>
+</div>
+</div>
+</td>
+<td class="px-6 py-5 text-center font-medium text-slate-700 dark:text-slate-300">18.000 COP</td>
+<td class="px-6 py-5">
+<div class="mx-auto flex w-max items-center rounded-lg border border-primary/20 bg-background-light dark:bg-slate-800 p-1">
+<button class="flex size-8 items-center justify-center rounded hover:bg-white dark:hover:bg-slate-700 text-primary">
+<span class="material-symbols-outlined text-sm">remove</span>
+</button>
+<span class="w-10 text-center font-bold">1</span>
+<button class="flex size-8 items-center justify-center rounded hover:bg-white dark:hover:bg-slate-700 text-primary">
+<span class="material-symbols-outlined text-sm">add</span>
+</button>
+</div>
+</td>
+<td class="px-6 py-5 text-right font-bold text-slate-900 dark:text-white">18.000 COP</td>
+<td class="px-6 py-5 text-right">
+<button class="text-slate-400 hover:text-red-500 transition-colors">
+<span class="material-symbols-outlined">delete</span>
+</button>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Shipping Form Section -->
+<div class="rounded-xl border border-primary/10 bg-white dark:bg-slate-900 p-8 shadow-sm">
+<h2 class="text-xl font-bold mb-6 flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">local_shipping</span>
+                                Datos de Envío en Bogotá
+                            </h2>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="flex flex-col gap-2">
+<label class="text-sm font-bold text-slate-700 dark:text-slate-300">Barrio</label>
+<input class="rounded-lg border-primary/20 bg-background-light dark:bg-slate-800 dark:border-slate-700 focus:border-primary focus:ring-primary h-12 px-4 text-sm" placeholder="Ej: Chapinero, Cedritos..." type="text"/>
+</div>
+<div class="flex flex-col gap-2">
+<label class="text-sm font-bold text-slate-700 dark:text-slate-300">Dirección Exacta</label>
+<input class="rounded-lg border-primary/20 bg-background-light dark:bg-slate-800 dark:border-slate-700 focus:border-primary focus:ring-primary h-12 px-4 text-sm" placeholder="Calle 100 # 15 - 20" type="text"/>
+</div>
+<div class="flex flex-col gap-2 md:col-span-2">
+<label class="text-sm font-bold text-slate-700 dark:text-slate-300">Notas para el domiciliario</label>
+<textarea class="rounded-lg border-primary/20 bg-background-light dark:bg-slate-800 dark:border-slate-700 focus:border-primary focus:ring-primary p-4 text-sm" placeholder="Ej: El timbre no funciona, dejar en portería, apto 402..." rows="3"></textarea>
+</div>
+<div class="md:col-span-2 flex items-center gap-2 text-primary bg-primary/5 p-4 rounded-lg">
+<span class="material-symbols-outlined">info</span>
+<p class="text-xs font-medium uppercase tracking-wide">Cobertura disponible en toda la zona urbana de Bogotá.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Summary Column -->
+<div class="flex flex-col gap-6">
+<div class="rounded-xl border border-primary/10 bg-white dark:bg-slate-900 p-6 shadow-sm sticky top-24">
+<h2 class="text-xl font-bold mb-6">Resumen del Pedido</h2>
+<div class="flex flex-col gap-4 border-b border-primary/10 pb-6">
+<div class="flex justify-between text-slate-600 dark:text-slate-400">
+<span>Subtotal productos</span>
+<span class="font-medium text-slate-900 dark:text-white">43.000 COP</span>
+</div>
+<div class="flex justify-between text-slate-600 dark:text-slate-400">
+<span>Costo de domicilio (Bogotá)</span>
+<span class="font-medium text-slate-900 dark:text-white">5.000 COP</span>
+</div>
+<div class="flex justify-between text-slate-600 dark:text-slate-400">
+<span>IVA (incluido)</span>
+<span class="font-medium text-slate-900 dark:text-white">0 COP</span>
+</div>
+</div>
+<div class="flex flex-col gap-6 pt-6">
+<div class="flex justify-between items-center">
+<span class="text-lg font-bold">Total a pagar</span>
+<span class="text-2xl font-black text-primary">48.000 COP</span>
+</div>
+<div class="flex flex-col gap-3">
+<button class="flex w-full items-center justify-center gap-2 rounded-xl bg-primary py-4 text-center font-bold text-white shadow-lg shadow-primary/20 hover:scale-[1.02] transition-all">
+<span class="material-symbols-outlined">shopping_bag</span>
+                                        Finalizar Compra
+                                    </button>
+<button class="flex w-full items-center justify-center gap-2 rounded-xl border-2 border-primary/20 bg-transparent py-4 text-center font-bold text-primary hover:bg-primary/5 transition-all">
+                                        Seguir Comprando
+                                    </button>
+</div>
+<div class="flex flex-col gap-4 mt-4">
+<p class="text-center text-xs font-semibold uppercase tracking-widest text-slate-400">Métodos de pago aceptados</p>
+<div class="flex justify-center gap-4 text-slate-400">
+<span class="material-symbols-outlined text-3xl">payments</span>
+<span class="material-symbols-outlined text-3xl">credit_card</span>
+<span class="material-symbols-outlined text-3xl">qr_code_2</span>
+</div>
+<p class="text-center text-[10px] text-slate-500 italic">Pago contra entrega disponible en efectivo.</p>
+</div>
+</div>
+</div>
+<!-- Map Placeholder -->
+<div class="rounded-xl overflow-hidden border border-primary/10 h-48 relative bg-slate-200">
+<img class="w-full h-full object-cover grayscale opacity-50" data-alt="Map of Bogota Colombia showing neighborhoods" data-location="Bogota, Colombia" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBzLxWIXywRKdxP4MHLXrFl29_wBIv07UmYBvfiChnZuT3rsJRC6-X7gKLRuoyPgte522ox0aeMctqeMPmI6xuXBMKlN7PeqE6sAeHgD-0oOLGRBFF1B1N0_ypNYOdA8QJ0WNLuGR4Bj-rOmoQ41HczkkeWKDRhXkEIqja3-yjKXv9irAgxIfbPunOB6sO0KJvRIV078k1b18RVHFgf11yWF2kcWUt5-6M3uilh0YSSjFyb0TxYcl34l8vd8a-mJi90b32dNtedYgI"/>
+<div class="absolute inset-0 flex items-center justify-center flex-col bg-primary/10 backdrop-blur-[1px]">
+<span class="material-symbols-outlined text-primary text-4xl mb-2">location_on</span>
+<span class="bg-white dark:bg-slate-900 px-3 py-1 rounded-full text-xs font-bold shadow-sm">Zona de reparto: Bogotá D.C.</span>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- Footer -->
+<footer class="bg-slate-100 dark:bg-slate-950 mt-auto border-t border-primary/10">
+<div class="mx-auto max-w-[1200px] px-6 py-12 lg:px-10">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+<div class="col-span-1 md:col-span-1">
+<div class="flex items-center gap-2 text-primary mb-4">
+<span class="material-symbols-outlined font-bold">local_drink</span>
+<span class="font-extrabold text-lg text-slate-900 dark:text-white">Naranjas Bogotá</span>
+</div>
+<p class="text-sm text-slate-500 leading-relaxed">Llevamos la frescura del campo directamente a tu mesa en la capital. 100% natural, 100% bogotano.</p>
+</div>
+<div>
+<h4 class="font-bold text-slate-900 dark:text-white mb-4">Servicio</h4>
+<ul class="text-sm text-slate-500 space-y-2">
+<li><a class="hover:text-primary transition-colors" href="#">Envíos</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Suscripciones Mensuales</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Ventas al por mayor</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold text-slate-900 dark:text-white mb-4">Compañía</h4>
+<ul class="text-sm text-slate-500 space-y-2">
+<li><a class="hover:text-primary transition-colors" href="#">Sobre nosotros</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Nuestros cultivos</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Impacto social</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold text-slate-900 dark:text-white mb-4">Contacto</h4>
+<ul class="text-sm text-slate-500 space-y-2 flex flex-col">
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">call</span> +57 300 000 0000</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-sm">mail</span> hola@naranjasbogota.com</li>
+<li class="mt-4 flex gap-4">
+<span class="material-symbols-outlined cursor-pointer hover:text-primary">share</span>
+<span class="material-symbols-outlined cursor-pointer hover:text-primary">language</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="mt-12 pt-8 border-t border-primary/10 flex flex-col md:flex-row justify-between gap-4">
+<p class="text-xs text-slate-400">© 2024 Naranjas Bogotá. Todos los derechos reservados.</p>
+<div class="flex gap-6 text-xs text-slate-400">
+<a class="hover:text-primary" href="#">Términos y Condiciones</a>
+<a class="hover:text-primary" href="#">Política de Privacidad</a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+</div>
+
+```</body></html>

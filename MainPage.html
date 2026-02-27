@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+
+<html lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Inicio - Naranja Fresh | Jugos Naturales en Bogotá</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#f49d25",
+                        "background-light": "#f8f7f5",
+                        "background-dark": "#221a10",
+                    },
+                    fontFamily: {
+                        "display": ["Plus Jakarta Sans", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.5rem",
+                        "lg": "1rem",
+                        "xl": "1.5rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: "Plus Jakarta Sans", sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<!-- Navigation Bar -->
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-primary/10 px-6 md:px-20 py-4 bg-background-light dark:bg-background-dark sticky top-0 z-50">
+<div class="flex items-center gap-8">
+<div class="flex items-center gap-3 text-primary">
+<div class="size-8">
+<span class="material-symbols-outlined text-4xl">nutrition</span>
+</div>
+<h2 class="text-slate-900 dark:text-slate-100 text-xl font-extrabold leading-tight tracking-tight">Naranja Fresh</h2>
+</div>
+<label class="hidden lg:flex flex-col min-w-40 h-10 w-64">
+<div class="flex w-full flex-1 items-stretch rounded-xl h-full bg-primary/10">
+<div class="text-primary flex items-center justify-center pl-4 rounded-l-xl">
+<span class="material-symbols-outlined text-xl">search</span>
+</div>
+<input class="form-input flex w-full min-w-0 flex-1 border-none bg-transparent focus:ring-0 h-full placeholder:text-primary/60 px-4 pl-2 text-sm font-normal" placeholder="Buscar jugos..." value=""/>
+</div>
+</label>
+</div>
+<div class="flex flex-1 justify-end items-center gap-6">
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-slate-700 dark:text-slate-300 text-sm font-semibold hover:text-primary transition-colors" href="#">Productos</a>
+<a class="text-slate-700 dark:text-slate-300 text-sm font-semibold hover:text-primary transition-colors" href="#">Suscripciones</a>
+<a class="text-slate-700 dark:text-slate-300 text-sm font-semibold hover:text-primary transition-colors" href="#">Nosotros</a>
+</nav>
+<div class="flex items-center gap-3">
+<button class="hidden sm:flex min-w-[100px] cursor-pointer items-center justify-center rounded-xl h-10 px-4 bg-primary text-white text-sm font-bold shadow-lg shadow-primary/20 hover:bg-primary/90 transition-all">
+                            Ayuda
+                        </button>
+<button class="relative flex items-center justify-center rounded-xl h-10 w-10 bg-primary/10 text-primary hover:bg-primary/20 transition-all">
+<span class="material-symbols-outlined">shopping_cart</span>
+<span class="absolute -top-1 -right-1 flex h-4 w-4 items-center justify-center rounded-full bg-red-500 text-[10px] font-bold text-white">2</span>
+</button>
+<div class="h-10 w-10 rounded-full bg-primary/20 flex items-center justify-center overflow-hidden border-2 border-primary/30">
+<span class="material-symbols-outlined text-primary">person</span>
+</div>
+</div>
+</div>
+</header>
+<main class="flex flex-1 flex-col items-center">
+<div class="layout-content-container flex flex-col max-w-[1200px] w-full px-6 md:px-10">
+<!-- Hero Section -->
+<section class="py-10 md:py-16">
+<div class="flex flex-col gap-8 md:flex-row items-center">
+<div class="w-full md:w-1/2 flex flex-col gap-6 md:gap-8">
+<div class="flex flex-col gap-4">
+<span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400 text-xs font-bold uppercase tracking-wider w-fit">
+<span class="material-symbols-outlined text-sm">potted_plant</span> 100% Natural
+                                    </span>
+<h1 class="text-slate-900 dark:text-slate-100 text-4xl md:text-6xl font-extrabold leading-[1.1] tracking-tight">
+                                        El sabor del campo, <br/><span class="text-primary">en tu puerta.</span>
+</h1>
+<p class="text-slate-600 dark:text-slate-400 text-lg md:text-xl font-medium leading-relaxed max-w-lg">
+                                        Jugos de naranja recién exprimidos en Bogotá. Sin conservantes, sin azúcar añadida, solo pura fruta seleccionada.
+                                    </p>
+</div>
+<div class="flex flex-col sm:flex-row gap-4">
+<button class="flex min-w-[180px] cursor-pointer items-center justify-center rounded-xl h-14 px-8 bg-primary text-white text-lg font-bold shadow-xl shadow-primary/30 hover:scale-[1.02] transition-transform">
+                                        Pedir Ahora
+                                    </button>
+<button class="flex min-w-[180px] cursor-pointer items-center justify-center rounded-xl h-14 px-8 bg-white dark:bg-slate-800 border-2 border-primary/20 text-slate-700 dark:text-slate-200 text-lg font-bold hover:bg-primary/5 transition-all">
+                                        Ver Menú
+                                    </button>
+</div>
+</div>
+<div class="w-full md:w-1/2 relative group">
+<div class="absolute -inset-4 bg-primary/20 rounded-full blur-3xl opacity-30 group-hover:opacity-50 transition-opacity"></div>
+<div class="relative w-full aspect-square bg-cover bg-center rounded-3xl shadow-2xl" data-alt="Freshly squeezed orange juice in a glass with orange slices" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuB13S5qU28DPASTbbYedbYRF1pcW0q7xTYNKXQzSVFTR5DgKg6DyLBH6-HVWygu4qke1hE-HFmJgaWAjlhQSMbebuhRNQRbilmpltnmsHHWIbI4SPxaGbwpjVXRwC0cMGN8j_1yoDspzmGJjT4_wnHSH02IY43_GKtvn-jTfalt6Z8T5_MKTJEsu84Epy6H1PyrhviDRri7rcOyRXYMn0OzvDjH1Jin6Leim3VliwcoBl0Xl3jVML-H_UaK7KzEkqN1nQKu7P4WNxM');">
+</div>
+<div class="absolute -bottom-6 -left-6 bg-white dark:bg-slate-800 p-6 rounded-2xl shadow-xl border border-primary/10 hidden lg:block">
+<div class="flex items-center gap-4">
+<div class="h-12 w-12 rounded-full bg-primary/20 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-3xl">local_shipping</span>
+</div>
+<div>
+<p class="text-xs font-bold text-primary uppercase">Envío Express</p>
+<p class="text-slate-900 dark:text-slate-100 font-extrabold">30 min en Bogotá</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Stats / Logistics Section -->
+<section class="py-12">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="flex flex-col gap-3 rounded-2xl p-8 bg-primary/5 border border-primary/10">
+<div class="flex items-center justify-between">
+<span class="material-symbols-outlined text-primary text-3xl">map</span>
+<span class="text-green-600 dark:text-green-400 text-sm font-bold flex items-center">
+<span class="material-symbols-outlined text-sm">trending_up</span> +100%
+                                    </span>
+</div>
+<p class="text-slate-600 dark:text-slate-400 text-sm font-bold uppercase tracking-wide">Cobertura Total</p>
+<p class="text-slate-900 dark:text-slate-100 text-3xl font-extrabold">Toda Bogotá</p>
+<p class="text-slate-500 text-xs">Desde Usaquén hasta Bosa</p>
+</div>
+<div class="flex flex-col gap-3 rounded-2xl p-8 bg-primary/5 border border-primary/10">
+<div class="flex items-center justify-between">
+<span class="material-symbols-outlined text-primary text-3xl">timer</span>
+<span class="text-red-500 text-sm font-bold flex items-center">
+<span class="material-symbols-outlined text-sm">trending_down</span> -5%
+                                    </span>
+</div>
+<p class="text-slate-600 dark:text-slate-400 text-sm font-bold uppercase tracking-wide">Tiempo de entrega</p>
+<p class="text-slate-900 dark:text-slate-100 text-3xl font-extrabold">30 min prom.</p>
+<p class="text-slate-500 text-xs">Monitoreo en tiempo real</p>
+</div>
+<div class="flex flex-col gap-3 rounded-2xl p-8 bg-primary/5 border border-primary/10">
+<div class="flex items-center justify-between">
+<span class="material-symbols-outlined text-primary text-3xl">eco</span>
+<span class="text-green-600 dark:text-green-400 text-sm font-bold flex items-center">
+<span class="material-symbols-outlined text-sm">trending_up</span> +15%
+                                    </span>
+</div>
+<p class="text-slate-600 dark:text-slate-400 text-sm font-bold uppercase tracking-wide">Calidad Garantizada</p>
+<p class="text-slate-900 dark:text-slate-100 text-3xl font-extrabold">+10k Frutas</p>
+<p class="text-slate-500 text-xs">Procesadas mensualmente</p>
+</div>
+</div>
+</section>
+<!-- Product Catalog -->
+<section class="py-16">
+<div class="flex items-end justify-between mb-10">
+<div class="flex flex-col gap-2">
+<h2 class="text-slate-900 dark:text-slate-100 text-3xl font-extrabold tracking-tight">Nuestras Presentaciones</h2>
+<p class="text-slate-600 dark:text-slate-400 font-medium">Elige el tamaño perfecto para tu momento</p>
+</div>
+<button class="hidden sm:flex items-center gap-2 text-primary font-bold hover:underline">
+                                Ver todos <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Card 1 -->
+<div class="group flex flex-col gap-4 bg-white dark:bg-slate-800/50 p-4 rounded-3xl border border-primary/10 hover:shadow-2xl hover:shadow-primary/5 transition-all">
+<div class="relative w-full aspect-[4/5] overflow-hidden rounded-2xl">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-110 transition-transform duration-500" data-alt="Individual 500ml glass bottle of orange juice" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBGZ7frCbhidh2Kj-53JxhZsDk852-1isqO8H6x-_j5NY-DMp4hnBheFXO48qBr1pn3z1xMl4GnSJfkNtG_2_ZCS6o0IkFCP5m8mZ1uWQY2VWAkYVXjlnoHCKEalM0NPqhiwNlF4f8rI0BGdj_2uT4xCl1QPPiwgGltL2gSIry-e9xGJYQ3sCJE3wkQeHrJULM0oHy-g_mIsPuG6TBbAu5gSs3NlTOoMkfRop8qiWclTNnjDL3CkGR80RZXZtjaYi5hOceYEB1mhlk');"></div>
+<div class="absolute top-4 right-4 px-3 py-1 bg-white/90 backdrop-blur rounded-full text-slate-900 font-bold text-xs">
+                                        Fresco
+                                    </div>
+</div>
+<div class="flex flex-col gap-2 px-2 pb-2">
+<div class="flex justify-between items-start">
+<div>
+<h3 class="text-slate-900 dark:text-slate-100 text-lg font-extrabold">Botella Individual</h3>
+<p class="text-slate-500 dark:text-slate-400 text-sm font-medium">500ml - Perfecta para el camino</p>
+</div>
+<p class="text-primary text-xl font-black">$8.000</p>
+</div>
+<button class="mt-4 w-full h-12 rounded-xl bg-slate-100 dark:bg-slate-700 text-slate-900 dark:text-slate-100 font-bold hover:bg-primary hover:text-white transition-all flex items-center justify-center gap-2">
+<span class="material-symbols-outlined">add_shopping_cart</span> Agregar
+                                    </button>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="group flex flex-col gap-4 bg-white dark:bg-slate-800/50 p-4 rounded-3xl border border-primary/10 hover:shadow-2xl hover:shadow-primary/5 transition-all">
+<div class="relative w-full aspect-[4/5] overflow-hidden rounded-2xl">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-110 transition-transform duration-500" data-alt="Family size large glass bottle of orange juice" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBElM8lRW_RxaL7DhNPav2qtKa2YtbKwIX6zYgxinwnCvToClhPuAuJ_0vxBAUupRqIV9dFoSQux3WSOXqaW61vY1j9vtRZ8hQSPaqcvZP2xa_2MP2SLyDfXLgwHFiyI06diBiksh9HW-y5BblbixPGRmroW8jNbsQHUEIWPlBgtM5VXx7Uiu43nkR-DPjOt3bn4EFgyoKo6LYCoJwvM0p_oBI5wCBCHWF5ux-uXk5AaqEDBTwZgPGUjNFXjqAbh9ZSc7PVZXW6YAQ');"></div>
+<div class="absolute top-4 right-4 px-3 py-1 bg-primary text-white rounded-full font-bold text-xs shadow-lg">
+                                        Popular
+                                    </div>
+</div>
+<div class="flex flex-col gap-2 px-2 pb-2">
+<div class="flex justify-between items-start">
+<div>
+<h3 class="text-slate-900 dark:text-slate-100 text-lg font-extrabold">Pack Familiar</h3>
+<p class="text-slate-500 dark:text-slate-400 text-sm font-medium">2 Litros - Para toda la familia</p>
+</div>
+<p class="text-primary text-xl font-black">$25.000</p>
+</div>
+<button class="mt-4 w-full h-12 rounded-xl bg-primary text-white font-bold hover:bg-primary/90 transition-all shadow-lg shadow-primary/20 flex items-center justify-center gap-2">
+<span class="material-symbols-outlined">add_shopping_cart</span> Agregar
+                                    </button>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="group flex flex-col gap-4 bg-white dark:bg-slate-800/50 p-4 rounded-3xl border border-primary/10 hover:shadow-2xl hover:shadow-primary/5 transition-all">
+<div class="relative w-full aspect-[4/5] overflow-hidden rounded-2xl">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-110 transition-transform duration-500" data-alt="Weekly subscription juice delivery concept box" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCdWj4bpjHWBr095HCTiaA0NrjDPkwhQ2mfyHj1mwOGfsKAJB-qcPbNL2vofK33Y6VCG70Uh3Jpk0APHgkHEXBO7bw8juGBNWFaLd19bTYBtZ4ozjLzsn-idZBwEqgyAuxIi3CrNHwlb8aky5-gM1WxI0SoXSpYrIRSNu_NWQ_uoCVFnkJO4I6PR5enw4c5faJpkeDLwbmiCS6kIb-tCU_iie20HX-mpriYoJXFWq7vvEgfa-MReaSGjBTQooTzmUbJ91O4cnCwki4');"></div>
+<div class="absolute top-4 right-4 px-3 py-1 bg-green-500 text-white rounded-full font-bold text-xs shadow-lg">
+                                        Ahorro
+                                    </div>
+</div>
+<div class="flex flex-col gap-2 px-2 pb-2">
+<div class="flex justify-between items-start">
+<div>
+<h3 class="text-slate-900 dark:text-slate-100 text-lg font-extrabold">Suscripción Semanal</h3>
+<p class="text-slate-500 dark:text-slate-400 text-sm font-medium">6 botellas x 500ml</p>
+</div>
+<p class="text-primary text-xl font-black">$42.000</p>
+</div>
+<button class="mt-4 w-full h-12 rounded-xl bg-slate-100 dark:bg-slate-700 text-slate-900 dark:text-slate-100 font-bold hover:bg-primary hover:text-white transition-all flex items-center justify-center gap-2">
+<span class="material-symbols-outlined">event_repeat</span> Suscribirme
+                                    </button>
+</div>
+</div>
+</div>
+</section>
+<!-- Map/Location Section Preview -->
+<section class="py-12 mb-20 bg-primary/5 rounded-[2.5rem] p-8 md:p-12 overflow-hidden relative">
+<div class="flex flex-col md:flex-row items-center gap-12 relative z-10">
+<div class="w-full md:w-1/2 flex flex-col gap-6">
+<h2 class="text-3xl font-extrabold text-slate-900 dark:text-slate-100">Estamos en toda Bogotá</h2>
+<p class="text-lg text-slate-600 dark:text-slate-400">Nuestro centro de distribución en el corazón de la ciudad nos permite llegar a cualquier barrio en menos de 45 minutos. Frescura garantizada desde el exprimidor hasta tu vaso.</p>
+<div class="flex flex-col gap-3">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary">check_circle</span>
+<span class="font-bold">Norte: Hasta Calle 200</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary">check_circle</span>
+<span class="font-bold">Sur: Hasta Bosa y Usme</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary">check_circle</span>
+<span class="font-bold">Occidente: Hasta Fontibón y Suba</span>
+</div>
+</div>
+</div>
+<div class="w-full md:w-1/2">
+<div class="h-64 md:h-80 w-full rounded-2xl bg-slate-200 dark:bg-slate-700 overflow-hidden shadow-xl border-4 border-white dark:border-slate-800">
+<img class="w-full h-full object-cover" data-alt="Abstract map representation of Bogotá city" data-location="Bogotá, Colombia" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDiZlsSslNn7_5u0M4JUosxLTL0RF54sGkwI7cBQvhDauJcKUAWB3GfHcv8ubnbjFHTFnCWDl1aTsGVjicFqpxU8otRJ_MjWU6tPF48JmKrWGeNA-zW23i-hCek30Gfvj9prWEvDfEiQJxZMUARCoWMEpaEe9ZtVFEYAEGUTL4aOuL1-4BjO_EsmRoQ-IQFjWTWZt73mzr_-jG2T4A4fgf36msz8rJn47cTxJ1Z5H1mrQ0COItbfYIWEOaApl1-46nm28u9syHw0sM"/>
+</div>
+</div>
+</div>
+<div class="absolute top-0 right-0 -mr-20 -mt-20 w-64 h-64 bg-primary/10 rounded-full blur-3xl"></div>
+<div class="absolute bottom-0 left-0 -ml-20 -mb-20 w-64 h-64 bg-green-400/10 rounded-full blur-3xl"></div>
+</section>
+</div>
+</main>
+<!-- Footer -->
+<footer class="bg-white dark:bg-slate-900 border-t border-primary/10 py-12 px-6 md:px-20">
+<div class="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
+<div class="flex flex-col gap-4">
+<div class="flex items-center gap-3 text-primary">
+<span class="material-symbols-outlined text-3xl">nutrition</span>
+<h2 class="text-slate-900 dark:text-slate-100 text-xl font-bold">Naranja Fresh</h2>
+</div>
+<p class="text-slate-500 text-sm">Pura fruta, pura vida. Llevamos la frescura del campo colombiano a tu hogar en Bogotá.</p>
+<div class="flex gap-4 mt-2">
+<a class="h-10 w-10 rounded-full bg-primary/10 flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-all" href="#">
+<span class="material-symbols-outlined text-xl">social_leaderboard</span>
+</a>
+<a class="h-10 w-10 rounded-full bg-primary/10 flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-all" href="#">
+<span class="material-symbols-outlined text-xl">camera</span>
+</a>
+</div>
+</div>
+<div>
+<h4 class="text-slate-900 dark:text-slate-100 font-bold mb-6">Empresa</h4>
+<ul class="flex flex-col gap-3 text-slate-500 text-sm">
+<li><a class="hover:text-primary transition-colors" href="#">Nosotros</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Sostenibilidad</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Trabaja con nosotros</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Blog</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-slate-900 dark:text-slate-100 font-bold mb-6">Servicios</h4>
+<ul class="flex flex-col gap-3 text-slate-500 text-sm">
+<li><a class="hover:text-primary transition-colors" href="#">Domicilios</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Suscripciones</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Eventos</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Ventas al por mayor</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-slate-900 dark:text-slate-100 font-bold mb-6">Contacto</h4>
+<ul class="flex flex-col gap-4 text-slate-500 text-sm">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary">location_on</span>
+<span>Calle 72 # 10-34, Bogotá, Colombia</span>
+</li>
+<li class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary">call</span>
+<span>+57 (601) 456-7890</span>
+</li>
+<li class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary">mail</span>
+<span>hola@naranjafresh.com</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="max-w-[1200px] mx-auto mt-12 pt-8 border-t border-slate-100 dark:border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4 text-slate-400 text-xs">
+<p>© 2024 Naranja Fresh. Todos los derechos reservados.</p>
+<div class="flex gap-6">
+<a class="hover:text-primary" href="#">Términos y Condiciones</a>
+<a class="hover:text-primary" href="#">Privacidad</a>
+<a class="hover:text-primary" href="#">Cookies</a>
+</div>
+</div>
+</footer>
+</div>
+</div>
+</body></html>
